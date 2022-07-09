@@ -15,6 +15,24 @@ function App() {
           }, {
             value: 'nitori',
             visual: 'Nitori Kawashiro'
+          },{
+            value: 'koishi',
+            visual: 'Koishi Komeiji'
+          }, {
+            value: 'hoshino',
+            visual: 'Hoshino Takanashi'
+          }, {
+            value: 'nitori',
+            visual: 'Nitori Kawashiro'
+          },{
+            value: 'koishi',
+            visual: 'Koishi Komeiji'
+          }, {
+            value: 'hoshino',
+            visual: 'Hoshino Takanashi'
+          }, {
+            value: 'nitori',
+            visual: 'Nitori Kawashiro'
           },]}
         />
       </header>

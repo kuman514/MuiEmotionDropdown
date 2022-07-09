@@ -1,4 +1,4 @@
-import { Select as RawSelect, MenuItem, } from '@mui/material';
+import { Select as RawSelect, MenuItem } from '@mui/material';
 import styled from '@emotion/styled';
 
 const Select = styled(RawSelect)`
@@ -34,6 +34,19 @@ function Dropdown({ options }: DropdownProps) {
   return (
     <Select
       defaultValue='koishi'
+      MenuProps={{
+        MenuListProps: {
+          sx: {
+            border: '2px solid #20cc20',
+            borderTop: 'none',
+            maxHeight: '200px',
+            overflowY: 'scroll',
+            borderTopLeftRadius: '0',
+            borderTopRightRadius: '0',
+          },
+        },
+        transitionDuration: 0,
+      }}
     >
       { renderedOptions }
     </Select>
